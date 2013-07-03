@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E120199F178475FE00898AB3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E120199E178475FE00898AB3 /* UIKit.framework */; };
+		E12019A1178475FE00898AB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E12019A0178475FE00898AB3 /* Foundation.framework */; };
+		E12019A3178475FE00898AB3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E12019A2178475FE00898AB3 /* CoreGraphics.framework */; };
+		E12019A9178475FE00898AB3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E12019A7178475FE00898AB3 /* InfoPlist.strings */; };
+		E12019AB178475FE00898AB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E12019AA178475FE00898AB3 /* main.m */; };
+		E12019AF178475FE00898AB3 /* QCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E12019AE178475FE00898AB3 /* QCAppDelegate.m */; };
+		E12019B1178475FE00898AB3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E12019B0178475FE00898AB3 /* Default.png */; };
+		E12019B3178475FE00898AB3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E12019B2178475FE00898AB3 /* Default@2x.png */; };
+		E12019B5178475FE00898AB3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E12019B4178475FE00898AB3 /* Default-568h@2x.png */; };
+		E12019B8178475FE00898AB3 /* QCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E12019B7178475FE00898AB3 /* QCViewController.m */; };
+		E12019BB178475FE00898AB3 /* QCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E12019B9178475FE00898AB3 /* QCViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E120199B178475FE00898AB3 /* franksPasswordPages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = franksPasswordPages.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E120199E178475FE00898AB3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E12019A0178475FE00898AB3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E12019A2178475FE00898AB3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E12019A6178475FE00898AB3 /* franksPasswordPages-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "franksPasswordPages-Info.plist"; sourceTree = "<group>"; };
+		E12019A8178475FE00898AB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E12019AA178475FE00898AB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E12019AC178475FE00898AB3 /* franksPasswordPages-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "franksPasswordPages-Prefix.pch"; sourceTree = "<group>"; };
+		E12019AD178475FE00898AB3 /* QCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCAppDelegate.h; sourceTree = "<group>"; };
+		E12019AE178475FE00898AB3 /* QCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCAppDelegate.m; sourceTree = "<group>"; };
+		E12019B0178475FE00898AB3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E12019B2178475FE00898AB3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E12019B4178475FE00898AB3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E12019B6178475FE00898AB3 /* QCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCViewController.h; sourceTree = "<group>"; };
+		E12019B7178475FE00898AB3 /* QCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCViewController.m; sourceTree = "<group>"; };
+		E12019BA178475FE00898AB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/QCViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1201998178475FE00898AB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E120199F178475FE00898AB3 /* UIKit.framework in Frameworks */,
+				E12019A1178475FE00898AB3 /* Foundation.framework in Frameworks */,
+				E12019A3178475FE00898AB3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1201992178475FE00898AB3 = {
+			isa = PBXGroup;
+			children = (
+				E12019A4178475FE00898AB3 /* franksPasswordPages */,
+				E120199D178475FE00898AB3 /* Frameworks */,
+				E120199C178475FE00898AB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E120199C178475FE00898AB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E120199B178475FE00898AB3 /* franksPasswordPages.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E120199D178475FE00898AB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E120199E178475FE00898AB3 /* UIKit.framework */,
+				E12019A0178475FE00898AB3 /* Foundation.framework */,
+				E12019A2178475FE00898AB3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E12019A4178475FE00898AB3 /* franksPasswordPages */ = {
+			isa = PBXGroup;
+			children = (
+				E12019AD178475FE00898AB3 /* QCAppDelegate.h */,
+				E12019AE178475FE00898AB3 /* QCAppDelegate.m */,
+				E12019B6178475FE00898AB3 /* QCViewController.h */,
+				E12019B7178475FE00898AB3 /* QCViewController.m */,
+				E12019B9178475FE00898AB3 /* QCViewController.xib */,
+				E12019A5178475FE00898AB3 /* Supporting Files */,
+			);
+			path = franksPasswordPages;
+			sourceTree = "<group>";
+		};
+		E12019A5178475FE00898AB3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E12019A6178475FE00898AB3 /* franksPasswordPages-Info.plist */,
+				E12019A7178475FE00898AB3 /* InfoPlist.strings */,
+				E12019AA178475FE00898AB3 /* main.m */,
+				E12019AC178475FE00898AB3 /* franksPasswordPages-Prefix.pch */,
+				E12019B0178475FE00898AB3 /* Default.png */,
+				E12019B2178475FE00898AB3 /* Default@2x.png */,
+				E12019B4178475FE00898AB3 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E120199A178475FE00898AB3 /* franksPasswordPages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E12019BE178475FE00898AB3 /* Build configuration list for PBXNativeTarget "franksPasswordPages" */;
+			buildPhases = (
+				E1201997178475FE00898AB3 /* Sources */,
+				E1201998178475FE00898AB3 /* Frameworks */,
+				E1201999178475FE00898AB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = franksPasswordPages;
+			productName = franksPasswordPages;
+			productReference = E120199B178475FE00898AB3 /* franksPasswordPages.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1201993178475FE00898AB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = QC;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Frank Rivera";
+			};
+			buildConfigurationList = E1201996178475FE00898AB3 /* Build configuration list for PBXProject "franksPasswordPages" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E1201992178475FE00898AB3;
+			productRefGroup = E120199C178475FE00898AB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E120199A178475FE00898AB3 /* franksPasswordPages */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1201999178475FE00898AB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12019A9178475FE00898AB3 /* InfoPlist.strings in Resources */,
+				E12019B1178475FE00898AB3 /* Default.png in Resources */,
+				E12019B3178475FE00898AB3 /* Default@2x.png in Resources */,
+				E12019B5178475FE00898AB3 /* Default-568h@2x.png in Resources */,
+				E12019BB178475FE00898AB3 /* QCViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1201997178475FE00898AB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12019AB178475FE00898AB3 /* main.m in Sources */,
+				E12019AF178475FE00898AB3 /* QCAppDelegate.m in Sources */,
+				E12019B8178475FE00898AB3 /* QCViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E12019A7178475FE00898AB3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E12019A8178475FE00898AB3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E12019B9178475FE00898AB3 /* QCViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E12019BA178475FE00898AB3 /* en */,
+			);
+			name = QCViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E12019BC178475FE00898AB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E12019BD178475FE00898AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E12019BF178475FE00898AB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "franksPasswordPages/franksPasswordPages-Prefix.pch";
+				INFOPLIST_FILE = "franksPasswordPages/franksPasswordPages-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E12019C0178475FE00898AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "franksPasswordPages/franksPasswordPages-Prefix.pch";
+				INFOPLIST_FILE = "franksPasswordPages/franksPasswordPages-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1201996178475FE00898AB3 /* Build configuration list for PBXProject "franksPasswordPages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E12019BC178475FE00898AB3 /* Debug */,
+				E12019BD178475FE00898AB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E12019BE178475FE00898AB3 /* Build configuration list for PBXNativeTarget "franksPasswordPages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E12019BF178475FE00898AB3 /* Debug */,
+				E12019C0178475FE00898AB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1201993178475FE00898AB3 /* Project object */;
+}
